@@ -104,7 +104,7 @@ Uncomment and adjust the `fetch()` block with the actual backend URL when availa
 
 ---
 
-## Check it out here:
+## Check it out here: https://ifeco1don.github.io/price-predictor-ui/
 
 ---
 
