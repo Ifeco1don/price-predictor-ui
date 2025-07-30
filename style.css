@@ -415,7 +415,7 @@ footer {
     height: 107vh;
     align-items: center;
     justify-content: end;
-    padding-bottom: 5rem;
+    padding-bottom: 9rem;
 
     div {
       display: flex;
@@ -636,7 +636,7 @@ footer {
   .home {
     height: 105vh;
     margin-top: -2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 
     div {
       width: fit-content;
