@@ -24,13 +24,15 @@ header {
   height: 11vh;
 }
 
-header div {
-  width: 100x;
-  height: 40px;
+.logo {
+  min-width: 100px;
+  max-width: 350px;
+  height: 65%;
 
   img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -409,7 +411,14 @@ footer {
 /* Styles for screens smaller than 768px (e.g., mobile) */
 @media only screen and (max-width: 767px) {
   header {
-    height: 10vh;
+    height: 9vh;
+  }
+
+  .logo {
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .home {
@@ -638,7 +647,14 @@ footer {
 /* Styles for screens between 768px and 1024px (e.g., tablet) */
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   header {
-    height: 10vh;
+    height: 9vh;
+  }
+
+  .logo {
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .home {
@@ -743,5 +759,3 @@ footer {
     width: 90%;
   }
 }
-
-/* // tftdftatfstyfatftsafsaffstaftfst */
