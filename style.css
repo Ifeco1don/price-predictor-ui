@@ -20,8 +20,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 99;
-  height: 11vh;
+  z-index: 999;
+  height: 10vh;
 }
 
 .price-lens {
@@ -32,7 +32,8 @@ header {
   justify-content: center;
 
   h1 {
-    font-size: 2.1rem;
+    font-size: 2rem;
+    white-space: nowrap;
 
     span {
       color: #dc2323;
@@ -41,12 +42,15 @@ header {
 }
 
 .logo {
-  width: fit-content;
-  height: 100%;
+  max-width: 60px;
+  display: flex;
+  align-items: center;
 
   img {
-    max-width: 50px;
-    height: 100%;
+    width: 45px;
+    height: auto;
+    max-width: 100%;
+    display: block;
     object-fit: contain;
   }
 }
